@@ -1,0 +1,55 @@
+.static_pos {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999999;
+    cursor: pointer;
+}
+.join_party {
+    transform: none;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    width: 160px;
+    white-space: nowrap;
+    padding: 12px 17px;
+    height: 48px;
+    background: #EF9C9C;
+    border-radius: 200px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 800;
+    fill: #FFFFFF;
+    color: #fff;
+    text-align: center;
+}
+.join_party:hover {
+    opacity: 0.7;
+    background: #EF9C9C;
+}
+
+.buy_babycake {
+    transform: none;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    position: absolute;
+    right: 16px;
+    bottom: 88px;
+    width: 160px;
+    white-space: nowrap;
+    padding: 12px 17px;
+    height: 48px;
+    background: #FFDF92;
+    border-radius: 200px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 800;
+    fill: #FFFFFF;
+    color: #000;
+    text-align: center;
+}
+.buy_babycake:hover {
+    opacity: 0.7;
+    background: #FFDF92;
+    color: white;
+}
